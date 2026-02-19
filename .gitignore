@@ -1,0 +1,266 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual Environment
+aienv/
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+pythonenv*/
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+pip-selfcheck.json
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+cover/
+tests/.coverage
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+.jupyter/
+
+# IPython
+profile_default/
+ipython_config.py
+
+# pyenv
+.python-version
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+.project
+.pydevproject
+.settings/
+*.sublime-workspace
+*.sublime-project
+
+# Logs and databases
+*.log
+*.sql
+*.sqlite
+*.db
+*.db-journal
+*.rdb
+logs/
+*.log.*
+error.log
+access.log
+
+# LangChain specific
+langchain_debug.log
+langchain_cache/
+*.langchain.db
+chain_cache/
+agent_cache/
+
+# LangGraph specific
+langgraph_state/
+langgraph_checkpoints/
+*.langgraph.db
+.graph_state/
+checkpoints/
+
+# Vector stores and embeddings
+chroma_db/
+chroma/
+*.chroma.db
+vector_store/
+embeddings_cache/
+*.faiss
+*.faiss.index
+*.pkl
+
+# Data files
+*.csv
+*.xlsx
+*.parquet
+*.feather
+*.h5
+*.hdf5
+data/raw/
+data/processed/
+data/interim/
+*.pickle
+*.joblib
+
+# Model files
+*.model
+*.h5
+*.hdf5
+*.pth
+*.pt
+*.bin
+*.onnx
+*.gguf
+models/
+*.safetensors
+
+# Secrets and keys
+*.key
+*.pem
+*.crt
+*.env
+*.env.*
+*.secret
+secrets/
+keys/
+service-account.json
+credentials.json
+*.env.local
+*.env.development
+*.env.production
+
+# Docker
+.dockerignore
+Dockerfile
+docker-compose*.yml
+.docker/
+*.docker
+
+# API keys and tokens (DO NOT COMMIT)
+*.token
+*.api_key
+*.api-key
+api_keys.txt
+tokens.txt
+
+# Cache files
+.cache/
+.cache.*
+*.cache
+.cached
+*.cached
+
+# Testing
+test_results/
+test-reports/
+*.test.log
+test_output/
+coverage/
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+*.bak
+
+# Documentation
+docs/_build/
+docs/build/
+site/
+*.rdb
+
+# Project specific
+output/
+logs/
+data/
+temp_data/
+uploads/
+downloads/
+media/
+staticfiles/
+
+# API documentation
+apidocs/
+swagger.json
+
+# VS Code specific
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+!.vscode/*.code-snippets
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+*.ipynb_checkpoints/
+
+# Streaming and async logs
+async_logs/
+stream_logs/
+websocket_logs/
+
+# Multi-agent specific
+agent_memory/
+agent_states/
+conversation_history/
+*.agent_state
+*.conversation
+
+# Package manager locks
+poetry.lock
+Pipfile.lock
+conda-lock.yml
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# pyre type checker
+.pyre/
